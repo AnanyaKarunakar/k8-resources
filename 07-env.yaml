@@ -8,8 +8,8 @@ spec:
   containers:
   - name: nginx
     image: nginx
-env:
-- name: COURSE
-  value: "KUBERNETES"
-- name: TRAINER
-  value: "SIVAKUMAR REDDY M"
+    env:
+    - name: COURSE
+      value: "KUBERNETES"
+    - name: TRAINER
+      value: "SIVAKUMAR REDDY M"
