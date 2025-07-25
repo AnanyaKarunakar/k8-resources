@@ -15,7 +15,7 @@ spec:
       tergetPort: 80 # container port
 ---
 apiVersion: v1
-kind: Service
+kind: Pod
 metadata:
   name: nginx
   labels:
