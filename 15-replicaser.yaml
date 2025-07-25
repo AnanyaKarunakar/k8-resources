@@ -16,13 +16,13 @@ spec:
       project: roboshop
       app: nginx
     # this is pod defination
-template:
-  metadata:
-    labels:
-      purpose: rs-demo
-      project: roboshop
-      app: nginx
-  spec:
-    containers:
-    - name: nginx
-      image: nginx
+  template:
+    metadata:
+      labels:
+        purpose: rs-demo
+        project: roboshop
+        app: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx
