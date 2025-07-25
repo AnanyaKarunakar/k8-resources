@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: nginx
   labels:
-    purposes: service-demo
+    purpose: service-demo
 spec:
   selector:
     purpose: service-demo
@@ -19,7 +19,7 @@ kind: Pod
 metadata:
   name: nginx
   labels:
-    purposes: service-demo
+    purpose: service-demo
     project: roboshop
     environment: dev
 spec:
