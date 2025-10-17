@@ -4,7 +4,7 @@ metadata:
   name: pod-config
   labels:
     purpose: config
-    senv: dev
+    env: dev
 data:
   COURSE: "DevOps with AWS"
   DURATION: "120Hrs"
